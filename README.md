@@ -4,7 +4,7 @@ This repository contains the backend for the ewapps_aws_ec2, which provides an A
 
 We will provide some clients
 
-* Windows https://www.erpware.tools/
+* Windows https://www.erpware.de/tools/ewapps_aws_ec2/
 * Android (comming soon)
 
 ## setup - with terraform
@@ -39,4 +39,4 @@ To stop an EC2 instance, just provide the action "stop" with the instanceID for 
 
 # erpware
 
-ewapps_aws_ec2 is one of the tools, we are using within our company "erpware" (https://www.erpware.de). We provide our tools on https://www.erpware.tools. Apps for Android (possible later for iOS). Most of our tools are freeware or waiting for a small donation.
+ewapps_aws_ec2 is one of the tools, we are using within our company "erpware" (https://www.erpware.de (german) / https://www.erpware.de (english)). Apps for Android (possible later for iOS). Most of our tools are freeware or waiting for a small donation.
