@@ -39,4 +39,4 @@ To stop an EC2 instance, just provide the action "stop" with the instanceID for 
 
 # erpware
 
-ewapps_aws_ec2 is one of the tools, we are using within our company "erpware" (https://www.erpware.de (german) / https://www.erpware.de (english)). Apps for Android (possible later for iOS). Most of our tools are freeware or waiting for a small donation.
+ewapps_aws_ec2 is one of the tools, we are using within our company "erpware" (https://www.erpware.de (german) / https://www.erpware.co (english)). Apps for Android (possible later for iOS). Most of our tools are freeware or waiting for a small donation.
