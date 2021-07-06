@@ -49,7 +49,7 @@ resource "aws_iam_role" "iam_role_ew_app_ec2" {
 EOF
 }
 
-resource "aws_lambda_permission" "lambda_permission_ew_management_versions" {
+resource "aws_lambda_permission" "lambda_permission_ew_app_ec2" {
   statement_id  = "AllowInvokeOfEwAppEc2"
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.ew_app_ec2.function_name
@@ -57,7 +57,7 @@ resource "aws_lambda_permission" "lambda_permission_ew_management_versions" {
   source_arn    = "arn:aws:execute-api:eu-central-1:${data.aws_caller_identity.current.account_id}:${aws_api_gateway_rest_api.ew_app_ec2.id}/*/${aws_api_gateway_method.api_ew_app_ec2_method.http_method}/*"
 }
 
-resource "aws_iam_role_policy_attachment" "role_policy_ew_management_versions" {
+resource "aws_iam_role_policy_attachment" "role_policy_ew_app_ec2" {
   policy_arn = aws_iam_policy.iam_policy_ew_app_ec2.arn
   role       = aws_iam_role.iam_role_ew_app_ec2.id
 }
