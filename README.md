@@ -1,5 +1,7 @@
 # ewapps_aws_ec2
 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P9PSQ7LZNTNB4)
+
 This repository contains the backend for the ewapps_aws_ec2, which provides an AWS API Gateway to list, start and stop EC2 instances.
 
 We will provide some clients
