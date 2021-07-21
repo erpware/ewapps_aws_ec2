@@ -5,7 +5,7 @@ This repository contains the backend for the ewapps_aws_ec2, which provides an A
 We will provide some clients
 
 * Windows https://www.erpware.de/tools/ewapps_aws_ec2/
-* Android https://play.google.com/store/apps/details?id=com.embarcadero.ewapps_aws_ec2
+* Android https://play.google.com/store/apps/details?id=co.erpware.ewapps_aws_ec2
 
 ## setup - with terraform
 
